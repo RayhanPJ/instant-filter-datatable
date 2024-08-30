@@ -86,7 +86,7 @@
     <script>
         $(document).ready(function () {
             $.ajax({
-            url: "/fetch-data",
+            url: "<?php base_url()?>fetch-data",
             type: "GET",
             dataType: "json",
             success: function (data) {
